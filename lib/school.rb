@@ -26,6 +26,7 @@ attr_reader :name
     @roster.sort do |key, value|
       hash[key] = value
     end
+    return hash
   end
   end
 
