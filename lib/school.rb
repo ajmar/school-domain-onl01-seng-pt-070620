@@ -27,5 +27,6 @@ attr_reader :name
       hash[key] = value
     end
   end
+  end
 
 end
