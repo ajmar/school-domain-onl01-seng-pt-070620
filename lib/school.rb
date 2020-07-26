@@ -11,12 +11,18 @@ attr_reader :name
     @roster
   end
 
-  def add_student(name, grade)
-    array = []
-  if @roster == nil
-    @roster[grade]
-  else
-    @roster[grade] = array << name
+  def add_student(student, grade)
+    @roster[grade] ||= []
+    @roster[grade]<< student
+    
   end
-  end
+
+  #def add_student(name, grade)
+  #  array = []
+  #if @roster == nil
+  #  @roster[grade]
+  #else
+  #  @roster[grade] = array << name
+  #end
+  #end
 end
