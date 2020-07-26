@@ -23,7 +23,7 @@ attr_reader :name
 
   def sort(grade)
     @roster[grade].sort
-    
+
   end
 
 end
