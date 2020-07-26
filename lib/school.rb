@@ -28,6 +28,5 @@ attr_reader :name
     end
     return hash
   end
-  end
 
 end
