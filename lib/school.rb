@@ -21,4 +21,9 @@ attr_reader :name
     @roster[grade]
   end
 
+  def sort(grade)
+    @roster[grade].sort
+    
+  end
+
 end
