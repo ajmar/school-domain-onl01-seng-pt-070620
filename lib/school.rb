@@ -23,7 +23,6 @@ attr_reader :name
 
   def sort
     @roster.sort.to_h
-
   end
 
 end
