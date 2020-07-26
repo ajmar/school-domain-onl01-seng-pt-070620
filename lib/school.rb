@@ -22,7 +22,7 @@ attr_reader :name
   end
 
   def sort
-    @roster[].sort.to_h
+    @roster.sort.to_h
   end
 
 end
