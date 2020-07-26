@@ -22,7 +22,8 @@ attr_reader :name
   end
 
   def sort
-    @roster.sort.to_h
+    hash = {}
+    @roster.sort do |key, value|
   end
 
 end
