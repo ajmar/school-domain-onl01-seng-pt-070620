@@ -23,8 +23,8 @@ attr_reader :name
 
   def sort
     hash = {}
-    @roster.sort do |key, value|
-      hash[key] = value
+    @roster.map do |key, value|
+      hash[key] = value.sort
     end
     return hash
   end
